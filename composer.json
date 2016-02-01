@@ -1,0 +1,27 @@
+{
+  "name": "src/Kobold",
+  "description": "description_text",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "Kévin Pignot",
+      "email": "kevin.pignot@live.fr"
+    }
+  ],
+  "require": {
+    "silex/silex": "~1.3",
+    "silex/web-profiler": "^1.0",
+    "symfony/browser-kit": "^3.0",
+    "symfony/class-loader": "^3.0",
+    "symfony/config": "^3.0",
+    "symfony/css-selector": "^3.0",
+    "symfony/form": "^3.0",
+    "symfony/process": "^3.0",
+    "symfony/security": "^3.0",
+    "symfony/translation": "^3.0",
+    "symfony/twig-bridge": "^3.0",
+    "symfony/validator": "^3.0",
+    "twig/twig": "^1.23"
+  }
+}
