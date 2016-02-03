@@ -23,5 +23,10 @@
     "symfony/twig-bridge": "^3.0",
     "symfony/validator": "^3.0",
     "twig/twig": "^1.23"
+  },
+  "autoload": {
+    "psr-4": {
+      "Kobold\\": "src/"
+    }
   }
 }
