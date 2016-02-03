@@ -19,7 +19,7 @@ $app['twig'] = $app->share($app->extend('twig', function ($twig, $app) {
 }));
 
 $app['debug'] = true;
-$app['twig.path'] = array(__DIR__.'/../../templates');
+$app['twig.path'] = array(__DIR__.'/../../templates', __DIR__.'/../resources/views');
 //$app['twig.options'] = array('cache' => __DIR__.'/../var/cache/twig');
 
 return $app;
